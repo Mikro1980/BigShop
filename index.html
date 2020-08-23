@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+    <script src="app.js"></script>
+    <title>Big Shop</title>
+    
+</head>
+<body>
+    
+    <div class="maincontainer">
+    <div class="header"><div class="decor"></div>
+        <h2 id="bigshop">B<span>ig Sh</span>op</h2>
+        <div class="search">
+            <div class="firsthalf">
+                
+                    <input type="text" size="10" placeholder="&#128269 Search">
+                
+            </div>
+            <div class="secondhalf">
+                <input list="Collection" size="11" placeholder="Collection  " > <datalist id="Collection">
+                    <option value="Summer 2020"></option>
+                    <option value="Autumn 2020"></option>
+            </div>
+     
+        </div>
+    </div>
+    <div class="discount">
+        <h1 id="summer">Summer</h1>
+        <h1>Collection</h1>
+        <h3 id="percent">25% <span>OFF</span></h4>
+        <a href="#">
+        <div class="details">
+            Details
+        </div></a>
+    </div>
+    <div class="trendy">
+        <h2>Trendy Arrivals</h2>
+        <div class="trendyCont">
+        <div class="pcard"><img src="bags/bag1.jpg" alt="">
+            <a href="">
+                <div class="cart">Add to Cart</div>
+            </a>
+        </div>
+        <div class="pcard"><img src="bags/bag2.jpg" alt="">
+            <a href="">
+                <div class="cart">Add to Cart</div>
+            </a>
+        </div>
+        <div class="pcard"><img src="bags/bag3.jpg" alt="">
+            <a href="">
+                <div class="cart">Add to Cart</div>
+            </a>
+        </div>
+        <div class="pcard"><img src="bags/bag4.jpg" alt="">
+            <a href="">
+                <div class="cart">Add to Cart</div>
+            </a>
+        </div>
+        <div class="pcard"><img src="bags/bag5.jpg" alt="">
+            <a href="">
+                <div class="cart">Add to Cart</div>
+            </a>
+        </div>
+        <div class="pcard"><img src="bags/bag6.jpg" alt="">
+            <a href="">
+                <div class="cart">Add to Cart</div>
+            </a>
+        </div>
+   </div>
+
+    </div>
+    <div class="brands">
+        <div class="ourB">
+            <h2>Our Brands</h2>
+            <h5>Small Shoes 2017 new Arrivals mini</h5>
+            <h5>Messenger <span id="classic">Classic Shoes</span></h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat atque doloribus quidem nobis neque deserunt nesciunt nam molestiae cumque, modi eligendi. Quae necessitatibus ipsam aliquid sint fuga unde magni enim!</p>
+        </div>
+        <div class="iphone"><img id="iphone" src="iphone.jpeg" alt="iphone"></div>
+
+
+    </div>
+    <div class="showCase">
+        <h2>Our Showcase</h2>
+        <div class="bar">
+            <a class='barlinks' href="">Fashion</a>
+            <a class='barlinks' href="">Furnitures</a>
+            <a class='barlinks' href="#" id="watches">Watches</a>
+            <a class='barlinks' href="">Mobile</a>
+            <a class='barlinks' href="">Cloth</a>
+            <a class='barlinks' href="">Toys</a>
+        </div>
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('leather')"> Leather</button>
+            <button class="btn" onclick="filterSelection('metal')"> Metal</button>
+          
+          </div>
+          
+          <div class="container">
+            <div class="filterDiv leather"><img src="watches/watch1.jpg"></div>
+            <div class="filterDiv metal"><img src="watches/watch2.jpg"></div>
+            <div class="filterDiv leather"><img src="watches/watch3.jpg"></div>
+            <div class="filterDiv metal"><img src="watches/watch4.jpg"></div>
+            <div class="filterDiv leather"><img src="watches/watch5.jpg"></div>
+            <div class="filterDiv metal"><img src="watches/watch6.jpg"></div>
+           
+          </div>
+        <!-- <div class="pcard ">
+            <a href="">
+                <div class="cart">Add to Cart</div>
+            </a>
+        </div>
+        <div class="pcard">
+            <a href="">
+                <div class="cart">Add to Cart</div>
+            </a>
+        </div>
+        <div class="pcard">
+            <a href="">
+                <div class="cart">Add to Cart</div>
+            </a>
+        </div>
+        <div class="pcard">
+            <a href="">
+                <div class="cart">Add to Cart</div>
+            </a>
+        </div>
+        <div class="pcard">
+            <a href="">
+                <div class="cart">Add to Cart</div>
+            </a>
+        </div>
+        <div class="pcard">
+            <a href="">
+                <div class="cart">Add to Cart</div>
+            </a>
+        </div> -->
+    
+    
+    </div>
+    
+</div>
+    <div class="newsLetter">
+       <h2 class='news'>Newsletter</h2> 
+       <div class="newsForm">
+           <input  type="text" size='40' placeholder="Enter your email address.."><button id="button">Submit</button>
+       </div>
+    </div>
+    <div class="footer"><a href="#bigshop"><h3>Big Shop</h3></a>
+    <div class="footerlinks">
+        <a href="">Man</a>
+        <a href="">Woman</a>
+        <a href="">Kids</a>
+        <a href="">Bags</a>
+        <a href="">Watches</a>
+        <a href="">Toys</a>
+    </div>
+    <div class="social">
+        <a class='sociallinks' href=""><i class="fab fa-facebook fb"></i></a>
+        <a class='sociallinks' href=""><i class="fab fa-google-plus-g"></i></a>
+        <a class='sociallinks' href=""><i class="fab fa-instagram fb"></i></a>
+        <a class='sociallinks' href=""><i class="fab fa-twitter "></i></a>
+    </div>
+    </div>
+    <div class="copyright">
+        <p><span> &#169;</span> Copyright 2017 Big Shop By Victor Themes</p>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/f5ec313bcf.js" crossorigin="anonymous"></script>
+</html>
